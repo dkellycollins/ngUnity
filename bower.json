@@ -1,0 +1,26 @@
+{
+  "name": "ngUnity",
+  "main": "ngUnity.js",
+  "homepage": "https://github.com/dkellycollins/ngUnity",
+  "authors": [
+    "Devin Kelly-Collins <dkellycollins@gmail.com>"
+  ],
+  "description": "An angular framework for Unity 3D games.",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "unity",
+    "unity3D"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
+}
