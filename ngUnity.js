@@ -3,7 +3,7 @@ if (document.location.protocol == 'https:')
    unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
 document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
 
-angular.module('ngUnity')
+angular.module('ngUnity', [])
     .provider('unityWebPlayerConfig', [function() {
        var _this = this;
 
