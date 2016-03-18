@@ -1,0 +1,29 @@
+[unity-web-player] {
+    cursor: default;
+    height: 600px;
+    width: 960px;
+}
+
+[unity-web-player] .broken,
+[unity-web-player] .missing{
+    margin: auto;
+    position: relative;
+    top: 50%;
+    width: 193px;
+}
+
+[unity-web-player] .broken a,
+[unity-web-player] .missing a{
+    height: 63px;
+    position: relative;
+    top: -31px;
+}
+
+[unity-web-player] .broken img,
+[unity-web-player] .missing img {
+    border-width: 0px;
+}
+
+[unity-web-player] .broken {
+    display: none;
+}
